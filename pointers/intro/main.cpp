@@ -4,6 +4,8 @@
  * 1. Create a pointer to an integer
  * 2. Print out the address of the pointer
  * 3. Print out the value stored in the pointer address using the pointer
+ * 4. When we pass in a parameter by reference the address of the data is passed and
+ * not a copy
  */
 
 void access_value(double *value){
