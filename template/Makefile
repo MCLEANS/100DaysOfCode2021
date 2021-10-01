@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -c --std=c++17
+CFLAGS = -c -Wall --std=c++17
 LFLAGS = -Wall
 OBJS = main.o
 
