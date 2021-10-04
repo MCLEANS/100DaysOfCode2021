@@ -6,9 +6,10 @@ Animal::Animal(){
 
 Animal::Animal(std::string name){
     this->name = name;
+    std::cout<<"Animal created"<<std::endl;
 }
 
-void Animal::set_name(std::string){
+void Animal::set_name(std::string name){
     this->name = name;
 }
 

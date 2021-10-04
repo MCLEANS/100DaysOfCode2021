@@ -9,7 +9,7 @@ all : $(OBJS)
 main.o : main.cpp
 	$(CC) $(CFLAGS) main.cpp
 
-animal.o : animal.h animal.hpp 
+animal.o : animal.h animal.cpp
 	$(CC) $(CFLAGS) animal.cpp
 
 run : 
