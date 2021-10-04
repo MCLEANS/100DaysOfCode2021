@@ -15,3 +15,7 @@ void Animal::set_name(std::string){
 void Animal::speak(){
     std::cout<<"My name is "<<this->name<<std::endl;
 }
+
+Animal::~Animal(){
+    std::cout<<"Animal destroyed"<<std::endl;
+}
