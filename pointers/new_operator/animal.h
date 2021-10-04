@@ -13,6 +13,7 @@ class Animal{
         Animal(std::string name);
         void set_name(std::string name);
         void speak();
+        ~Animal();
 };
 
 
